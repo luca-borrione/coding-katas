@@ -1,0 +1,4 @@
+set -eu
+
+yarn check --integrity || yarn install --check-files
+yarn lint-staged
