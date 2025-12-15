@@ -10,7 +10,7 @@ export default [
   // Base recommended rules (equivalent to "eslint:recommended")
   js.configs.recommended,
   {
-    files: ['src/**/*.js'],
+    files: ['exercises/**/*.js'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',

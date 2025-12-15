@@ -1,6 +1,6 @@
-# Coding Questions Practice
+# Coding Katas
 
-A repository for practicing coding questions with JavaScript and Jest.
+A repository for practicing coding katas with JavaScript and Jest.
 
 ## Setup
 
@@ -34,19 +34,11 @@ yarn test:coverage
 
 ## Structure
 
-- Each coding question should have its own JavaScript file with the implementation
+- Each kata should live in `exercises/` (for example `exercises/js/...`)
 - Each implementation should have a corresponding `.spec.js` test file
-- Example: `src/twoSum.js` and `src/twoSum.spec.js`
 
-## Example
+## Adding New Katas
 
-See the example files:
-
-- `src/twoSum.js` - Example implementation
-- `src/twoSum.spec.js` - Example test file
-
-## Adding New Questions
-
-1. Create a new `.js` file with your implementation
+1. Create a new `.js` file under `exercises/js` with your implementation
 2. Create a corresponding `.spec.js` file with your tests
 3. Run `yarn test` to verify your solution

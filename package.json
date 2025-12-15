@@ -1,23 +1,23 @@
 {
-  "name": "coding-questions",
+	  "name": "coding-katas",
   "version": "1.0.0",
-  "description": "A repository for practicing coding questions with JavaScript and Jest",
+	  "description": "A repository for practicing coding katas with JavaScript and Jest",
   "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "lint": "eslint src --max-warnings=0",
-    "lint:fix": "eslint src --fix",
-    "format": "prettier --check .",
-    "format:fix": "prettier --write .",
-    "prepare": "husky install"
-  },
-  "keywords": [
-    "coding-questions",
-    "interview-questions",
-    "practice"
-  ],
+	  "scripts": {
+	    "test": "jest",
+	    "test:watch": "jest --watch",
+	    "test:coverage": "jest --coverage",
+	    "lint": "eslint exercises --max-warnings=0",
+	    "lint:fix": "eslint exercises --fix",
+	    "format": "prettier --check .",
+	    "format:fix": "prettier --write .",
+	    "prepare": "husky install"
+	  },
+	  "keywords": [
+	    "coding-katas",
+	    "interview-questions",
+	    "practice"
+	  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
