@@ -1,31 +1,29 @@
 {
-	  "name": "coding-katas",
+  "name": "coding-katas",
   "version": "1.0.0",
-	  "description": "A repository for practicing coding katas with JavaScript and Jest",
-  "main": "index.js",
-	  "scripts": {
-	    "test": "jest",
-	    "test:watch": "jest --watch",
-	    "test:coverage": "jest --coverage",
-	    "lint": "eslint exercises --max-warnings=0",
-	    "lint:fix": "eslint exercises --fix",
-	    "format": "prettier --check .",
-	    "format:fix": "prettier --write .",
-	    "prepare": "husky install"
-	  },
-	  "keywords": [
-	    "coding-katas",
-	    "interview-questions",
-	    "practice"
-	  ],
-  "author": "",
+  "description": "A repository for practicing coding katas with JavaScript and Jest",
   "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint": "eslint exercises --max-warnings=0",
+    "lint:fix": "eslint exercises --fix",
+    "prepare": "husky install",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
   "devDependencies": {
     "@babel/core": "7.28.5",
     "@babel/preset-env": "7.28.5",
     "@eslint/js": "9.39.2",
     "babel-jest": "30.2.0",
     "eslint": "9.39.2",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-import": "2.32.0",
     "eslint-plugin-jest": "29.5.0",
     "globals": "16.5.0",
     "husky": "9.1.7",
@@ -35,6 +33,11 @@
     "prettier-package-json": "2.8.0",
     "yarn-deduplicate": "6.0.2"
   },
+  "keywords": [
+    "coding-katas",
+    "interview-questions",
+    "practice"
+  ],
   "engines": {
     "node": "24.11.1",
     "npm": "11.6.2",
